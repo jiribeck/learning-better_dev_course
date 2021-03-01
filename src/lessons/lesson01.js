@@ -60,7 +60,7 @@ export default function lesson01({ history }) {
 
           {/* typography */}
           <div className="p-20 text-gray-800 leading-relaxed">
-            <h2 className="mb-1 text-4xl text-gray-700 font-bold tracking-wide">
+            <h2 className="mb-1 text-4xl text-gray-700 font-bold text-lg tracking-wide">
               Learning Tailwind is Fun!
             </h2>
             <h3 className="mb-10 text-2xl text-gray-500 font-thin">
