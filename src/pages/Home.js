@@ -13,6 +13,7 @@ export default function Home() {
               className="mr-4 px-6 py-3 bg-yellow-200 rounded-xl text-yellow-800"
               href="https://learn.better.dev/courses/beginner-tailwind/"
               target="_blank"
+              rel="noreferrer"
             >
               Course Web Page
             </a>
@@ -20,6 +21,7 @@ export default function Home() {
               className="ml-4 px-6 py-3 bg-green-200 rounded-xl text-green-800"
               href="https://tailwindcss.com/docs/guides/create-react-app"
               target="_blank"
+              rel="noreferrer"
             >
               Install tailwindcss to React.js
             </a>
@@ -37,6 +39,14 @@ export default function Home() {
                 href="http://localhost:3000/lesson01"
               >
                 Lesson 01 - Main Concepts
+              </a>
+            </li>
+            <li>
+              <a
+                className="text-blue-900 hover:text-blue-400 transfor-color duration-300"
+                href="http://localhost:3000/lesson02"
+              >
+                Lesson 02 - Layout Concepts
               </a>
             </li>
           </ul>
