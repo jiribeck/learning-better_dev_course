@@ -15,11 +15,11 @@ export default function lesson02() {
         <div className="lesson-code">
           {/* ------------------ */}
           {/* Layout & positioning */}
-          {/* <div className="py-20 bg-gray-200">
+          <div className="py-20 bg-gray-200">
             <div className="container mx-auto">
-              <div className="relative bg-white p-10 rounded-lg shadow-lg"> */}
-          {/* Absolutely positioned label */}
-          {/* <div className="absolute top-0 right-0 text-xs bg-red-500 text-red-100 rounded py-1 px-2 transform translate-x-2 -translate-y-2">
+              <div className="relative bg-white p-10 rounded-lg shadow-lg">
+                {/* Absolutely positioned label */}
+                <div className="absolute top-0 right-0 text-xs bg-red-500 text-red-100 rounded py-1 px-2 transform translate-x-2 -translate-y-2">
                   Brand New Label
                 </div>
                 <p>
@@ -30,20 +30,20 @@ export default function lesson02() {
                 </p>
               </div>
             </div>
-          </div> */}
+          </div>
           {/* ------------------ */}
           {/* Responsive classes */}
-          {/* <div className="min-h-screen bg-blue-200 p-4 lg:p-20"> */}
-          {/* Colors as responsive  */}
-          {/* <h2 className="text-6xl text-black md:text-red-600 lg:text-yellow-600 xl:text-white">
+          <div className="bg-blue-200 p-4 lg:p-20">
+            {/* Colors as responsive  */}
+            <h2 className="text-6xl text-black md:text-red-600 lg:text-yellow-600 xl:text-white">
               Mobile First
             </h2>
 
             <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl ">
               Different Sizes Per Device
-            </h2> */}
-          {/* Stacking vs. side by side */}
-          {/* <div className="md:flex">
+            </h2>
+            {/* Stacking vs. side by side */}
+            <div className="md:flex">
               <div className="p-10 bg-white mt-2 md:w-1/2 md:mx-4">
                 on mobile we stack
               </div>
@@ -51,7 +51,7 @@ export default function lesson02() {
                 on desktop, we are side by side
               </div>
             </div>
-          </div> */}
+          </div>
           {/* ------------------ */}
           {/* Flexbox */}
           {/* centering */}
