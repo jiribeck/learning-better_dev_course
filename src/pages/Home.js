@@ -49,6 +49,14 @@ export default function Home() {
                 Lesson 02 - Layout Concepts
               </a>
             </li>
+            <li>
+              <a
+                className="text-blue-900 hover:text-blue-400 transfor-color duration-300"
+                href="http://localhost:3000/lesson03"
+              >
+                Lesson 03 - Creating Components: Cards
+              </a>
+            </li>
           </ul>
         </div>
       </div>
