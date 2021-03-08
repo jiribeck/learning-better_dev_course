@@ -59,7 +59,7 @@ export default function lesson03() {
             <h3 className="pb-2 text-yellow-600 text-sm font-bold">
               3. Horizontal &amp; Responsive Card
             </h3>
-            <div className="md:max-h-48 md:flex bg-white rounded-lg shadow-lg">
+            <div className="md:max-h-48 bg-white rounded-lg shadow-lg">
               <img
                 className="h-96 md:h-auto w-full md:w-1/3 object-cover rounded-t-lg md:rounded-t-none md:rounded-l-lg"
                 src="https://images.unsplash.com/photo-1614853389929-8515eb4bb010"
