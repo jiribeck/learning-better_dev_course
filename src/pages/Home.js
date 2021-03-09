@@ -10,7 +10,7 @@ export default function Home() {
           </h1>
           <p className="p-10">
             <a
-              className="mr-4 px-6 py-3 bg-yellow-200 rounded-xl text-yellow-800"
+              className="mr-4 px-6 py-3 bg-orange-200 rounded-xl text-yellow-800"
               href="https://learn.better.dev/courses/beginner-tailwind/"
               target="_blank"
               rel="noreferrer"
@@ -18,7 +18,7 @@ export default function Home() {
               Course Web Page
             </a>
             <a
-              className="ml-4 px-6 py-3 bg-green-200 rounded-xl text-green-800"
+              className="ml-4 px-6 py-3 bg-teal-200 rounded-xl text-green-800"
               href="https://tailwindcss.com/docs/guides/create-react-app"
               target="_blank"
               rel="noreferrer"
