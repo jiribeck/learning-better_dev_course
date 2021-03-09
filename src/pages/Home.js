@@ -75,6 +75,20 @@ export default function Home() {
             </li>
           </ul>
         </div>
+        <div className="pt-16 lessons">
+          <h2 className="text-3xl font-thin">Course Site</h2>
+          <hr />
+          <ul className="py-4 list-disc list-inside">
+            <li>
+              <a
+                className="text-blue-900 hover:text-blue-400 transfor-color duration-300"
+                href="http://localhost:3000/courseSite/courseIndex"
+              >
+                Index
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
