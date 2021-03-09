@@ -47,7 +47,7 @@ export default function lesson03() {
                 </p>
                 <a
                   className="text-green-500 hover:text-green-800 underline text-sm"
-                  href="#"
+                  href="/#"
                 >
                   Read More 👉🏼
                 </a>

@@ -65,6 +65,14 @@ export default function Home() {
                 Lesson 04 - Creating Components: Buttons
               </a>
             </li>
+            <li>
+              <a
+                className="text-blue-900 hover:text-blue-400 transfor-color duration-300"
+                href="http://localhost:3000/lesson05"
+              >
+                Lesson 05 - Creating Components: Forms
+              </a>
+            </li>
           </ul>
         </div>
       </div>
