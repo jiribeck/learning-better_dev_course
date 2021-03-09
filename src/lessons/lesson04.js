@@ -64,8 +64,8 @@ export default function lesson03() {
               <h2 className="text-purple-200 font-bold text-sm">
                 3. Grouped and w/ an Icon Buttons
               </h2>
-              <div className="p-16 flex justify-center text-xl space-x-8">
-                <div className="space-x-0 text-sm text-center">
+              <div className="flex justify-center p-16 text-xl space-x-12">
+                <div className="flex justify-center items-center text-center space-x-0 text-sm">
                   <a
                     className="px-2 py-2 bg-purple-600 hover:bg-purple-700 text-purple-100 hover:text-purple-200 transition-color duration-300 rounded-l-full"
                     href="#"
@@ -89,6 +89,19 @@ export default function lesson03() {
                     href="#"
                   >
                     👉🏼
+                  </a>
+                </div>
+                <div className="text-sm text-center">
+                  <a
+                    href="#"
+                    className="group flex items-center pl-6 bg-indigo-500 hover:bg-indigo-600 rounded-full"
+                  >
+                    <span className="text-indigo-900 group-hover:text-indigo-300 mr-4 font-semibold">
+                      Click This
+                    </span>
+                    <span className="flex items-center justify-center w-10 h-10 rounded-full bg-indigo-600 group-hover:bg-indigo-500">
+                      🤜🏼
+                    </span>
                   </a>
                 </div>
               </div>
