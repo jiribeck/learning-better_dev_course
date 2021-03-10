@@ -34,7 +34,7 @@ export default function lesson04() {
                   Login
                 </a>
                 <a
-                  className="px-16 py-4 bg-green-800 hover:bg-red-800 border border-b-4 border-green-700 hover:border-red-700 rounded-sm shadow-2xl hover:shadow-none hover:shadow-xl text-white font-medium hover:font-bold text-2xl transition duration-300"
+                  className="px-16 py-4 bg-green-800 hover:bg-red-800 border border-b-4 border-green-700 hover:border-red-700 rounded-sm shadow-2xl hover:shadow-xl text-white font-medium hover:font-bold text-2xl transition duration-300"
                   href="/#"
                 >
                   Sign Up
