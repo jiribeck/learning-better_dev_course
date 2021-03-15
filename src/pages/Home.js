@@ -36,7 +36,7 @@ export default function Home() {
             <li>
               <a
                 className="text-blue-900 duration-300 hover:text-blue-400 transform-color"
-                href="http://localhost:3000/lesson01"
+                href="/lesson01"
               >
                 Lesson 01 - Main Concepts
               </a>
@@ -44,7 +44,7 @@ export default function Home() {
             <li>
               <a
                 className="text-blue-900 duration-300 hover:text-blue-400 transform-color"
-                href="http://localhost:3000/lesson02"
+                href="/lesson02"
               >
                 Lesson 02 - Layout Concepts
               </a>
@@ -52,7 +52,7 @@ export default function Home() {
             <li>
               <a
                 className="text-blue-900 duration-300 hover:text-blue-400 transform-color"
-                href="http://localhost:3000/lesson03"
+                href="/lesson03"
               >
                 Lesson 03 - Creating Components: Cards
               </a>
@@ -60,7 +60,7 @@ export default function Home() {
             <li>
               <a
                 className="text-blue-900 duration-300 hover:text-blue-400 transform-color"
-                href="http://localhost:3000/lesson04"
+                href="/lesson04"
               >
                 Lesson 04 - Creating Components: Buttons
               </a>
@@ -68,7 +68,7 @@ export default function Home() {
             <li>
               <a
                 className="text-blue-900 duration-300 hover:text-blue-400 transform-color"
-                href="http://localhost:3000/lesson05"
+                href="/lesson05"
               >
                 Lesson 05 - Creating Components: Forms
               </a>
@@ -82,7 +82,7 @@ export default function Home() {
             <li>
               <a
                 className="text-blue-900 duration-300 hover:text-blue-400 transform-color"
-                href="http://localhost:3000/courseSite/courseIndex"
+                href="/courseSite/courseIndex"
               >
                 Index
               </a>
