@@ -8,7 +8,7 @@ export default function lesson01() {
       <div className="p-10">
         <Nav />
         <div className="text-center">
-          <div className="text-center text-3xl font-thin">Lesson 01</div>
+          <div className="text-3xl font-thin text-center">Lesson 01</div>
           <div className="py-4 text-2xl font-medium">Main Concepts</div>
           <hr />
         </div>
@@ -19,41 +19,41 @@ export default function lesson01() {
             <p className="mb-4">
               Tailwind will help us with margin and padding
             </p>
-            <button className="mr-3 px-2 py-4">Learn More</button>
-            <button className="mr-3 px-8 py-4">Sign Up</button>
+            <button className="px-2 py-4 mr-3">Learn More</button>
+            <button className="px-8 py-4 mr-3">Sign Up</button>
           </div>
           {/* box-properties */}
           <div className="p-20 bg-blue-400">
             <h2 className="mb-4">Box Properties</h2>
-            <div className="p-10 bg-purple-400 rounded-lg border-purple-500 border shadow-2xl">
+            <div className="p-10 bg-purple-400 border border-purple-500 rounded-lg shadow-2xl">
               I am a box
             </div>
           </div>
           {/* sizing and numbering */}
           {/* 1 point = 0.25rem = 4px (in modern browsers) */}
           <div className="p-20 bg-yellow-500">
-            <button className="mx-1 p-4 bg-green-400 rounded w-8">
+            <button className="w-8 p-4 mx-1 bg-green-400 rounded">
               clickMe
             </button>
-            <button className="mx-1 p-4 bg-green-400 rounded w-12">
+            <button className="w-12 p-4 mx-1 bg-green-400 rounded">
               clickMe
             </button>
-            <button className="mx-1 p-4 bg-green-400 rounded w-20">
+            <button className="w-20 p-4 mx-1 bg-green-400 rounded">
               clickMe
             </button>
-            <button className="mx-1 p-4 bg-green-400 rounded w-32">
+            <button className="w-32 p-4 mx-1 bg-green-400 rounded">
               clickMe
             </button>
-            <button className="mx-1 p-4 bg-green-400 rounded w-48 h-48">
+            <button className="w-48 h-48 p-4 mx-1 bg-green-400 rounded">
               clickMe
             </button>
           </div>
           {/* typography */}
-          <div className="p-20 text-gray-800 leading-relaxed">
-            <h2 className="mb-1 text-4xl text-gray-700 font-bold text-lg tracking-wide">
+          <div className="p-20 leading-relaxed text-gray-800">
+            <h2 className="mb-1 text-4xl font-bold tracking-wide text-gray-700">
               Learning Tailwind is Fun!
             </h2>
-            <h3 className="mb-10 text-2xl text-gray-500 font-thin">
+            <h3 className="mb-10 text-2xl font-thin text-gray-500">
               More fun than I expected!
             </h3>
             <p className="mb-8">
@@ -82,43 +82,43 @@ export default function lesson01() {
           {/* colors */} {/* pseudo classes */}
           {/* transitions and transforms */}
           {/* animations */}
-          <div className="p-20 bg-gray-800 space-y-3">
-            <div className="p-4 rounded-lg bg-red-100 hover:bg-red-900 text-red-900 hover:text-red-100 transition-colors duration-200">
+          <div className="p-20 space-y-3 bg-gray-800">
+            <div className="p-4 text-red-900 transition-colors duration-200 bg-red-100 rounded-lg hover:bg-red-900 hover:text-red-100">
               I am a box
             </div>
-            <div className="p-4 rounded-lg bg-red-200 text-red-700 transform hover:translate-x-4 duration-300">
+            <div className="p-4 text-red-700 duration-300 transform bg-red-200 rounded-lg hover:translate-x-4">
               I am a box
             </div>
-            <div className="p-4 rounded-lg bg-red-300 text-red-700 transform hover:rotate-180 duration-1000">
+            <div className="p-4 text-red-700 duration-1000 transform bg-red-300 rounded-lg hover:rotate-180">
               I am a box
             </div>
-            <div className="p-4 rounded-lg bg-red-400 text-red-100 transform hover:scale-105 duration-300">
+            <div className="p-4 text-red-100 duration-300 transform bg-red-400 rounded-lg hover:scale-105">
               I am a box
             </div>
-            <div className="p-4 rounded-lg bg-red-500 text-red-200">
+            <div className="p-4 text-red-200 bg-red-500 rounded-lg">
               I am a box
             </div>
-            <div className="p-4 rounded-lg bg-red-600 text-red-200">
+            <div className="p-4 text-red-200 bg-red-600 rounded-lg">
               I am a box
             </div>
-            <div className="p-4 rounded-lg bg-red-700 text-red-100 animate-bounce">
+            <div className="p-4 text-red-100 bg-red-700 rounded-lg animate-bounce">
               I am a box
             </div>
-            <div className="p-4 rounded-lg bg-red-800 text-red-200 animate-pulse">
+            <div className="p-4 text-red-200 bg-red-800 rounded-lg animate-pulse">
               I am a box
             </div>
-            <div className="group space-y-3">
-              <div className="p-4 rounded-lg bg-red-900 text-red-200 group-hover:bg-red-200 group-hover:text-red-800">
+            <div className="space-y-3 group">
+              <div className="p-4 text-red-200 bg-red-900 rounded-lg group-hover:bg-red-200 group-hover:text-red-800">
                 I am a box
               </div>
-              <div className="p-4 rounded-lg bg-blue-600 text-blue-200 border-2 border-blue-700 group-hover:bg-blue-200 group-hover:text-blue-600">
+              <div className="p-4 text-blue-200 bg-blue-600 border-2 border-blue-700 rounded-lg group-hover:bg-blue-200 group-hover:text-blue-600">
                 I am a box
               </div>
             </div>
           </div>
           {/* Gradients */}
           <div className="p-2O">
-            <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-100 to-blue-300">
+            <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-100 to-blue-300">
               <h1 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-blue-900 to-blue-700">
                 Whoa Gradients!
               </h1>
