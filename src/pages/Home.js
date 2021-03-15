@@ -82,7 +82,7 @@ export default function Home() {
             <li>
               <a
                 className="text-blue-900 duration-300 hover:text-blue-400 transform-color"
-                href="/courseSite/courseIndex"
+                href="/courseSite/"
               >
                 Index
               </a>

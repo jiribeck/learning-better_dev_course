@@ -9,21 +9,36 @@ export default function header() {
           <div className="flex items-center space-x-4">
             <a
               className="text-2xl font-semibold text-teal-800 hover:text-teal-600"
-              href="/#"
+              href="/courseSite/#"
             >
               Begginer Tailwind
             </a>
-            <a href="/#" className="hidden lg:inline-block hover:text-gray-900">
+            <a
+              href="/courseSite/#"
+              className="hidden lg:inline-block hover:text-gray-900"
+            >
               About
             </a>
-            <a href="/#" className="hidden lg:inline-block hover:text-gray-900">
+            <a
+              href="/courseSite/#"
+              className="hidden lg:inline-block hover:text-gray-900"
+            >
               What you will learn
             </a>
-            <a href="/#" className="hidden lg:inline-block hover:text-gray-900">
+            <a
+              href="/courseSite/#"
+              className="hidden lg:inline-block hover:text-gray-900"
+            >
               Pricing
             </a>
-            <a href="/#" className="hidden lg:inline-block hover:text-gray-900">
+            <a
+              href="/courseSite/#"
+              className="hidden lg:inline-block hover:text-gray-900"
+            >
               FAQ
+            </a>
+            <a href="/" className="hidden lg:inline-block hover:text-gray-900">
+              Back to main page
             </a>
           </div>
           {/* Right Section */}

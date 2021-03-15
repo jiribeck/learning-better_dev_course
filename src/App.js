@@ -7,7 +7,7 @@ import Lesson02 from './lessons/lesson02';
 import Lesson03 from './lessons/lesson03';
 import Lesson04 from './lessons/lesson04';
 import Lesson05 from './lessons/lesson05';
-import CourseIndex from './coursesite/courseIndex';
+import CourseIndex from './coursesite';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <Route path="/lesson03" component={Lesson03} exact />
           <Route path="/lesson04" component={Lesson04} exact />
           <Route path="/lesson05" component={Lesson05} exact />
-          <Route path="/courseSite/courseIndex" component={CourseIndex} exact />
+          <Route path="/courseSite/" component={CourseIndex} exact />
         </Switch>
       </BrowserRouter>
     </div>
