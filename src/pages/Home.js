@@ -114,7 +114,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="bottom-0 left-0 w-full border border-red-500 lg:absolute footer">
+        <div className="bottom-0 left-0 w-full mb-4 lg:absolute footer">
           <div className="flex justify-center mt-10 text-gray-800 hover:text-teal-600">
             <a href="https://github.com/jiribeck/learning-better_dev_course">
               <FaGithub size="2rem" />
