@@ -5,7 +5,7 @@ export default function overview() {
     <div className="overview">
       <div className="relative">
         <div className="absolute inset-x-0 bottom-0 h-64 bg-white"></div>
-        <div className="pt-24 pb-24 bg-gradient-to-r from-purple-500 to-purple-700">
+        <div className="pt-12 pb-24 bg-gradient-to-r from-purple-500 to-purple-700">
           <div className="container relative px-6 mx-auto lg:px-0">
             <h2 className="mb-8 text-5xl font-bold text-purple-50">
               Writing CSS is tough stuff!

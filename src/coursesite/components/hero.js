@@ -4,7 +4,7 @@ export default function hero() {
   return (
     <div className="Hero">
       <div className="relative">
-        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-r from-purple-500 to-purple-700 h-72"></div>
+        <div className="absolute inset-x-0 bottom-0 h-64 bg-gradient-to-r from-purple-500 to-purple-700"></div>
         <div className="container px-6 py-24 mx-auto text-center lg:px-0">
           {/* heading  */}
           <h1 className="py-2 mb-6 text-4xl font-extrabold tracking-wide sm:text-5xl md:text-6xl">
