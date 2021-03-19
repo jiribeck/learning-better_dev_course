@@ -3,6 +3,7 @@ import React from 'react';
 import Circles from './components/circles';
 import Header from './components/header';
 import Hero from './components/hero';
+import Overview from './components/overview';
 
 export default function courseIndex() {
   return (
@@ -12,6 +13,7 @@ export default function courseIndex() {
         <div className="relative">
           <Header />
           <Hero />
+          <Overview />
         </div>
       </div>
     </div>
