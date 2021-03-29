@@ -4,6 +4,7 @@ import Circles from './components/circles';
 import Header from './components/header';
 import Hero from './components/hero';
 import Overview from './components/overview';
+import About from './components/about';
 
 export default function courseIndex() {
   return (
@@ -14,6 +15,7 @@ export default function courseIndex() {
           <Header />
           <Hero />
           <Overview />
+          <About />
         </div>
       </div>
     </div>
