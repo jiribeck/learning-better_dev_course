@@ -4,15 +4,15 @@ export default function overview() {
   return (
     <div className="overview">
       <div className="relative">
-        <div className="absolute inset-x-0 bottom-0 h-64 bg-white"></div>
+        <div className="absolute inset-x-0 bottom-0 h-64 bg-gray-200"></div>
         <div className="pt-12 pb-24 bg-gradient-to-r from-purple-500 to-purple-700">
           <div className="container relative px-6 mx-auto lg:px-0">
-            <h2 className="mb-8 text-5xl font-bold text-purple-50">
+            <h2 className="mb-8 text-4xl font-bold lg:text-5xl text-purple-50">
               Writing CSS is tough stuff!
             </h2>
-            <div className="flex space-x-16">
+            <div className="space-y-8 lg:space-x-16 lg:flex lg:space-y-0">
               {/* left column */}
-              <div className="w-2/3 p-16 space-y-8 text-lg leading-relaxed text-gray-800 bg-white rounded shadow-2xl">
+              <div className="p-12 space-y-8 text-lg leading-relaxed text-gray-800 bg-white rounded shadow-2xl lg:p-16 lg:w-2/3">
                 <p>
                   Tailwind makes writing CSS easier and lets us customize our
                   designs faster than any other CSS framework. If you want a CSS
@@ -74,7 +74,7 @@ export default function overview() {
                 </p>
               </div>
               {/* right column */}
-              <div className="flex-grow space-y-8 text-white">
+              <div className="space-y-8 text-white w-100 lg:flex-grow">
                 <div className="px-8 py-6 italic bg-purple-800 rounded shadow-md">
                   What classes should I use?
                 </div>
