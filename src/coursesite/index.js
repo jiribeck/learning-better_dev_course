@@ -5,6 +5,7 @@ import Header from './components/header';
 import Hero from './components/hero';
 import Overview from './components/overview';
 import About from './components/about';
+import Learn from './components/learn';
 
 export default function courseIndex() {
   return (
@@ -16,6 +17,7 @@ export default function courseIndex() {
           <Hero />
           <Overview />
           <About />
+          <Learn />
         </div>
       </div>
     </div>

@@ -27,9 +27,9 @@ export default function about() {
                 height="315"
                 src="https://www.youtube.com/embed/6zIuAyLZPH0"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
             <div className="border border-gray-800 rounded shadow-lg lg:w-1/2">
@@ -42,9 +42,9 @@ export default function about() {
                 height="315"
                 src="https://www.youtube.com/embed/NRagrTU_v8o"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
           </div>
