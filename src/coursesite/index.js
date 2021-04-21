@@ -6,6 +6,7 @@ import Hero from './components/hero';
 import Overview from './components/overview';
 import About from './components/about';
 import Learn from './components/learn';
+import Build from './components/build';
 
 export default function courseIndex() {
   return (
@@ -18,6 +19,7 @@ export default function courseIndex() {
           <Overview />
           <About />
           <Learn />
+          <Build />
         </div>
       </div>
     </div>
