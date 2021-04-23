@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Build() {
   return (
-    <div className="about">
+    <div className="build">
       <div className="pt-6 pb-24 bg-gray-300 lg:text-center lg:pt-12">
         <div className="container px-6 mx-auto lg:px-0">
           <div className="mb-8 space-y-2 text-center text-gray-800">
