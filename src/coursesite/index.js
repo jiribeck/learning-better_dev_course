@@ -8,6 +8,8 @@ import About from './components/about';
 import Learn from './components/learn';
 import Build from './components/build';
 import Pricing from './components/pricing';
+import FAQ from './components/faq';
+import Footer from './components/footer';
 
 export default function courseIndex() {
   return (
@@ -22,6 +24,8 @@ export default function courseIndex() {
           <Learn />
           <Build />
           <Pricing />
+          <FAQ />
+          <Footer />
         </div>
       </div>
     </div>
