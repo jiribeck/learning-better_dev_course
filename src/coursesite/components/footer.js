@@ -9,10 +9,10 @@ export default function Footer() {
           <div className="absolute w-32 h-32 ml-24 bg-purple-200 rounded-full opacity-40"></div>
           <div className="absolute w-32 h-32 mt-16 ml-16 bg-red-200 rounded-full opacity-40"></div>
         </div>
-        <div className="container relative px-6 mx-auto lg:px-0">
-          <div className="flex justify-between">
+        <div className="container relative px-10 mx-auto">
+          <div className="justify-between space-y-8 lg:flex lg:space-y-0">
             <div className="flex flex-col justify-center">
-              <h4 className="mb-4 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-purple-500">
+              <h4 className="mb-4 text-3xl font-bold text-transparent lg:text-5xl bg-clip-text bg-gradient-to-r from-teal-400 to-purple-500">
                 Get update on this course
               </h4>
               <form className="flex" action="" method="POST">
@@ -27,7 +27,7 @@ export default function Footer() {
                 </button>
               </form>
             </div>
-            <div className="flex space-x-12 text-right">
+            <div className="space-x-0 space-y-8 text-center md:space-x-12 md:flex md:justify-center md:space-y-0 lg:text-right">
               <div className="space-y-2">
                 <p className="font-bold tracking-widest text-gray-400 uppercase ">
                   Company
@@ -99,13 +99,13 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="flex justify-between pt-4 mt-12 text-sm text-gray-600 border-t border-gray-300">
-            <div> Copyright &copy; 2021</div>
-            <div className="space-x-4">
+          <div className="justify-between pt-4 mt-12 space-y-4 text-sm text-center text-gray-600 border-t border-gray-300 md:flex md:text-left md:space-y-0">
+            <div className="order-2 space-x-4">
               <a href="/courseSite/#">Discord</a>
               <a href="/courseSite/#">Twitter</a>
               <a href="/courseSite/#">YouTube</a>
             </div>
+            <div className="order-1"> Copyright &copy; 2021</div>
           </div>
         </div>
       </div>

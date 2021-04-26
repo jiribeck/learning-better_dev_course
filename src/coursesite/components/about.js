@@ -4,7 +4,7 @@ export default function about() {
   return (
     <div className="about">
       <div className="pt-6 pb-24 bg-gray-200 lg:text-center lg:pt-12">
-        <div className="container px-6 mx-auto lg:px-0">
+        <div className="container px-10">
           <h2 className="mb-3 text-3xl font-bold text-teal-900 md:text-4xl">
             Some Tailwind Videos I have done
           </h2>

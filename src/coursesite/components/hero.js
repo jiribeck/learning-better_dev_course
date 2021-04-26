@@ -15,12 +15,10 @@ export default function hero() {
               Tailwind
             </span>
           </h1>
-
           {/* paragraph */}
           <p className="mb-8 text-lg text-gray-700 sm:text-xl lg:text-2xl">
             Make good designs quickly. All without single line of custom CSS
           </p>
-
           {/* Big Button/Call to action  */}
           <a
             className="inline-block px-12 py-3 mb-32 text-lg font-bold tracking-wide text-purple-100 duration-500 transform rounded-lg shadow-lg hover:text-white hover:to-purple-600 hover:shadow-2xl bg-gradient-to-br from-purple-400 hover:from-purple-500 to-purple-700"
@@ -28,10 +26,10 @@ export default function hero() {
           >
             Get the course
           </a>
-
-          <div className="relative">
+          {/*    lg:translate-x-4 lg:-translate-y-6 lg:absolute lg:transform */}
+          <div className="lg:relative">
             {/* teaser image info box  */}
-            <div className="top-0 right-0 px-8 py-4 mb-4 text-sm text-left text-yellow-800 bg-yellow-200 border-t-4 border-yellow-500 rounded-lg shadow-lg lg:mg-0 lg:translate-x-4 lg:-translate-y-6 lg:absolute lg:transform">
+            <div className="top-0 right-0 w-11/12 px-8 py-4 mx-auto mb-0 text-sm text-left text-yellow-800 bg-yellow-200 border-t-4 border-yellow-500 rounded-lg shadow-lg xl:absolute">
               <p className="font-bold">
                 <strong>We'll create BeginnerTailwind.com </strong>{' '}
                 <span className="opacity-50">
@@ -42,7 +40,8 @@ export default function hero() {
             </div>
             {/* teaser image */}
             <img
-              className="border-2 border-purple-400 rounded-lg shadow-2xl"
+              className="w-11/12 mx-auto border-2 border-purple-400 rounded-lg shadow-2xl "
+              // width="90%"
               src="https://i.imgur.com/wysbBMS.png"
               alt="Teaser"
             />
