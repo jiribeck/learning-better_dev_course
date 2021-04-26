@@ -28,6 +28,7 @@ export default function hero() {
           </a>
           {/*    lg:translate-x-4 lg:-translate-y-6 lg:absolute lg:transform */}
           <div className="lg:relative">
+            {/* TODO: Edit responsivness of yellow box */}
             {/* teaser image info box  */}
             <div className="top-0 right-0 w-11/12 px-8 py-4 mx-auto mb-0 text-sm text-left text-yellow-800 bg-yellow-200 border-t-4 border-yellow-500 rounded-lg shadow-lg xl:absolute">
               <p className="font-bold">
