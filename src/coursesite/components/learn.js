@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Learn() {
   return (
-    <div className="learn">
+    <div id="learn">
       <div className="pt-6 pb-24 bg-gray-200 lg:text-center lg:pt-12">
-        <div className="container px-10">
+        <div className="container px-10 mx-auto">
           <div className="relative">
             <h2 className="mb-24 text-4xl font-bold text-center text-purple-900 lg:mb-32 md:text-5xl lg:text-6xl">
               What youll learn in this course

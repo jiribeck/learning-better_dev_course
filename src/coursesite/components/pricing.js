@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function Pricing() {
   return (
-    <div className="pricing">
+    <div id="pricing">
       <div className="relative">
         <div className="absolute inset-x-0 top-0 h-56 bg-gray-300 "></div>
         <div className="pt-32 pb-16 text-blue-100 bg-blue-600 lg:text-center lg:pt-12">
-          <div className="container mx-auto ">
+          <div className="container px-10 mx-auto">
             <div className="items-center px-2 space-y-8 lg:space-x-8 md:px-8 lg:px-16 lg:flex lg:space-y-0">
               <div className="relative order-2 px-8 py-12 mt-8 text-center text-black transition duration-500 transform bg-white border-8 border-purple-700 rounded-lg shadow-lg lg:px-8 lg:w-1/3 lg:mt-24 hover:shadow-xl hover:scale-110">
                 <div className="absolute inset-x-0 top-0 flex items-end justify-center space-x-8 transform -translate-y-full">

@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function overview() {
   return (
-    <div className="overview">
+    <div id="overview">
       <div className="relative">
         <div className="absolute inset-x-0 bottom-0 h-64 bg-gray-200"></div>
         <div className="pt-12 pb-24 bg-gradient-to-r from-purple-500 to-purple-700">
-          <div className="container relative px-10">
+          <div className="container relative px-10 mx-auto">
             <h2 className="mb-8 text-4xl font-bold lg:text-5xl text-purple-50">
               Writing CSS is tough stuff!
             </h2>

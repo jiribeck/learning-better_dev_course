@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function FAQ() {
   return (
-    <div className="faq">
+    <div id="faq">
       <div className="py-32 text-blue-400 bg-gray-800">
         <div className="container px-6 mx-auto text-gray-100 lg:px-0">
           <h2 className="mb-12 text-3xl font-bold text-center">FAQ</h2>
