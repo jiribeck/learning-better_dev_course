@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function hero() {
   return (
-    <div className="Hero">
+    <div id="hero">
       <div className="relative">
         <div className="absolute inset-x-0 bottom-0 h-64 bg-gradient-to-r from-purple-500 to-purple-700"></div>
         <div className="container px-10 py-24 mx-auto text-center lg:px-0">
@@ -29,9 +29,9 @@ export default function hero() {
             Get the course
           </a>
           {/*    lg:translate-x-4 lg:-translate-y-6 lg:absolute lg:transform */}
-          <div className="relative">
+          <div className="relative mx-4">
             {/* teaser image info box  */}
-            <div className="top-0 right-0 px-8 py-4 mx-auto mb-0 text-sm text-left text-yellow-800 bg-yellow-200 border-t-4 border-yellow-500 rounded-lg shadow-lg lg:w-auto lg:translate-x-4 lg:-translate-y-6 lg:absolute lg:transform">
+            <div className="top-0 right-0 px-8 py-4 mb-0 text-sm text-left text-yellow-800 bg-yellow-200 border-t-4 border-yellow-500 rounded-lg shadow-lg xl:mx-auto xls:w-auto lg:translate-x-4 lg:-translate-y-6 lg:absolute lg:transform">
               <p className="font-bold">
                 <strong>We'll create BeginnerTailwind.com </strong>{' '}
                 <span className="opacity-50">

@@ -23,7 +23,12 @@ export default function header() {
 
           {/* Right Section */}
           <div className="space-x-4">
-            <a href="/#" className="hover:text-gray-900">
+            <a
+              href="https://beginnertailwind.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-gray-900"
+            >
               Login
             </a>
             <a

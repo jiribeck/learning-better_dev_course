@@ -10,6 +10,7 @@ import Build from './components/build';
 import Pricing from './components/pricing';
 import FAQ from './components/faq';
 import Footer from './components/footer';
+import Videos from './components/videos';
 
 export default function courseIndex() {
   return (
@@ -24,6 +25,7 @@ export default function courseIndex() {
           <Learn />
           <Build />
           <Pricing />
+          <Videos />
           <FAQ />
           <Footer />
         </div>
